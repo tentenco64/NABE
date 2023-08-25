@@ -1,0 +1,45 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "NABE",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"スプライト","folderPath":"folders/スプライト.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"タイルセット","folderPath":"folders/タイルセット.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"サウンド","folderPath":"folders/サウンド.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"パス","folderPath":"folders/パス.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"スクリプト","folderPath":"folders/スクリプト.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"シェーダー","folderPath":"folders/シェーダー.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"フォント","folderPath":"folders/フォント.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"タイムライン","folderPath":"folders/タイムライン.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"オブジェクト","folderPath":"folders/オブジェクト.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ルーム","folderPath":"folders/ルーム.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"シーケンス","folderPath":"folders/シーケンス.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"アニメーションカーブ","folderPath":"folders/アニメーションカーブ.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"メモ","folderPath":"folders/メモ.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"拡張機能","folderPath":"folders/拡張機能.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.6.0.92",
+  },
+  "resources": [
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}

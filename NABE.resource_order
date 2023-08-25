@@ -1,0 +1,20 @@
+{
+  "FolderOrderSettings": [
+    {"name":"スプライト","order":1,"path":"folders/スプライト.yy",},
+    {"name":"タイルセット","order":2,"path":"folders/タイルセット.yy",},
+    {"name":"サウンド","order":3,"path":"folders/サウンド.yy",},
+    {"name":"パス","order":4,"path":"folders/パス.yy",},
+    {"name":"スクリプト","order":5,"path":"folders/スクリプト.yy",},
+    {"name":"シェーダー","order":6,"path":"folders/シェーダー.yy",},
+    {"name":"フォント","order":7,"path":"folders/フォント.yy",},
+    {"name":"タイムライン","order":8,"path":"folders/タイムライン.yy",},
+    {"name":"オブジェクト","order":9,"path":"folders/オブジェクト.yy",},
+    {"name":"ルーム","order":10,"path":"folders/ルーム.yy",},
+    {"name":"シーケンス","order":11,"path":"folders/シーケンス.yy",},
+    {"name":"アニメーションカーブ","order":12,"path":"folders/アニメーションカーブ.yy",},
+    {"name":"メモ","order":13,"path":"folders/メモ.yy",},
+    {"name":"拡張機能","order":14,"path":"folders/拡張機能.yy",},
+    {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+  ],
+  "ResourceOrderSettings": [],
+}
