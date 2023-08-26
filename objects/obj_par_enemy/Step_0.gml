@@ -1,4 +1,13 @@
 /// @description 
+var _move_speed
+
+// 減速中は移動速度が1/10になる
+
+if slow == true{
+	_move_speed = initial_move_speed * 0.5
+}else{
+	_move_speed = initial_move_speed
+}
 
 // プレイヤーから逃げるような移動をする
 
@@ -8,7 +17,7 @@ var _distance_to_player = point_distance(x, y, obj_player.x, obj_player.y)
 // プレイヤーが視界内に来たら逃げる
 if _distance_to_player < view_range{
 	var _angle_to_player = point_direction(x, y, obj_player.x, obj_player.y)
-	x += lengthdir_x(move_speed, _angle_to_player+180)
-	y += lengthdir_y(move_speed, _angle_to_player+180)
+	x += lengthdir_x(_move_speed, _angle_to_player+180)
+	y += lengthdir_y(_move_speed, _angle_to_player+180)
 }
 
