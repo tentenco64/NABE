@@ -16,5 +16,7 @@
     {"name":"拡張機能","order":14,"path":"folders/拡張機能.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+  ],
 }
