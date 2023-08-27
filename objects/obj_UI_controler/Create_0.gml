@@ -3,4 +3,7 @@
 x_offset_score = 50
 y_offset_score = 50
 
-name_queue = ds_queue_create()
+x_offset_water = 50
+y_offset_water = 250
+
+spr_queue = ds_queue_create()

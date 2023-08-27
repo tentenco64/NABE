@@ -1,16 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+if other.can_eat == false{
+	instance_destroy(other)
+}

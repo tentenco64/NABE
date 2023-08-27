@@ -1,12 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_chicken",
+  "name": "obj_usagi",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"10",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"chicken\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"usagi\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"initial_move_speed","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"4",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"15",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"water","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"5",},
   ],
   "parent": {
@@ -33,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_chicken",
-    "path": "sprites/spr_chicken/spr_chicken.yy",
+    "name": "spr_usagi",
+    "path": "sprites/spr_usagi/spr_usagi.yy",
   },
   "spriteMaskId": null,
   "visible": true,

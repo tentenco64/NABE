@@ -28,9 +28,11 @@ else{
 // 減速弾の発射
 if mouse_check_button_pressed(mb_left){
 	if bullet_ct < 0{
-		instance_create_layer(x, y, "Bullet", obj_bullet)		
+		instance_create_layer(x, y, "Bullet", obj_bullet)
+		global.player_water -= 1
 	}
 }
 
 // クールダウン
 bullet_ct -= 1
+

@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"hakusai\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"water","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"10",},
   ],
   "parent": {
     "name": "Enemy",
