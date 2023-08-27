@@ -18,7 +18,7 @@ if instance_number(obj_par_enemy) < 5 {
         _spawn_point_x = random(room_width)
         _spawn_point_y = random(room_height)
     }
-    instance_create_layer(_spawn_point_x, _spawn_point_y, "Enemy", _spawn_obj)
+    var _inst = instance_create_layer(_spawn_point_x, _spawn_point_y, "Enemy", _spawn_obj)
 }
 
 alarm[0] = spawn_rate

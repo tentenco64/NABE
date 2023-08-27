@@ -19,5 +19,8 @@ max_ingredients = 5
 // プレイヤーの向き
 player_dir = 0
 
-// 水分量
-player_water = 10
+// プレイヤーが操作可能状態か
+operatable = true
+
+// 加熱のクールタイム
+calorie_ct = 180

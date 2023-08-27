@@ -2,9 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_bonus_contains(_array, _value){
     for (var _i = 0; _i < array_length(_array); _i++) {
+		/*
 		if (_array[_i].can_eat == false){
 			return false
 		}
+		*/
         if (_array[_i].name == _value) {
 			show_debug_message("true")
             return true;

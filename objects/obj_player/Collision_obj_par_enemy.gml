@@ -2,7 +2,11 @@
 var _enemy = 0
 
 // SE再生
-audio_play_sound(snd_drop, 0, false)
+if other.can_eat{
+	audio_play_sound(snd_drop, 0, false)
+}else{
+	audio_play_sound(snd_damaged, 0, false)
+}
 
 // 食材キューに追加
 ds_queue_enqueue(global.ingredients_queue, other)
@@ -13,5 +17,8 @@ if ds_queue_size(global.ingredients_queue) > max_ingredients{
 
 // 食材から水分を吸収
 global.player_water += other.water
+
+// 食材に熱を奪われる
+global.player_calorie += other.calorie
 
 instance_destroy(other)

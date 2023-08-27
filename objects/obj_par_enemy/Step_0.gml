@@ -1,6 +1,30 @@
 /// @description 
 var _move_speed
 
+// 徐々に腐敗していく
+if fleshness > 0{
+	fleshness -= 100/60/60
+}else{
+	fleshness = 0
+}
+
+// 鮮度の割合を計算
+fleshness_ratio = fleshness / init_fleshness
+
+// 青色の成分を計算
+var _blue = 255 * (1 - fleshness_ratio);
+
+// スプライトの色を設定
+if can_eat{
+	image_blend = make_color_rgb(255 - _blue, 255 - _blue, 255);
+}else{
+	image_blend = make_color_rgb(255, 255, 255)
+}
+if fleshness = 0{
+	can_eat = false
+}
+
+
 // 減速中は移動速度が1/10になる
 
 if slow == true{
@@ -16,12 +40,20 @@ if instance_exists(obj_player){
 
 	// 吸い込み中は逃げない
 	if !keyboard_check(ord("R")){
-		// プレイヤーが視界内に来たら逃げる
+		// プレイヤーが視界内に来た
 		if _distance_to_player < view_range{
 			var _angle_to_player = point_direction(x, y, obj_player.x, obj_player.y)
-			direction = _angle_to_player + 180
-			speed += (_move_speed - speed)*0.1
+			// 食材は逃げる
+			if can_eat{
+				direction = _angle_to_player + 180
+				speed += (_move_speed - speed)*0.1
+				speed *= fleshness_ratio
+			// 食材以外は追いかけてくる
+			}else{
+				direction = _angle_to_player
+				speed += (_move_speed - speed)*0.1
+			}
 		}
-	
 	}
 }
+
