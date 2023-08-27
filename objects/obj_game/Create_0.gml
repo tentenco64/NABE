@@ -6,7 +6,9 @@ spawn_rate = 60
 alarm[0] = spawn_rate
 
 // スポーンする敵リスト
-enemy_obj_list = [obj_hakusai, obj_chicken, obj_usagi, obj_donteat]
+enemy_obj_list = [obj_hakusai, obj_chicken, obj_usagi, obj_donteat, obj_egg, obj_curry, obj_udon,
+obj_daikon,obj_konnnyaku,obj_tofu,obj_rice,obj_fish,obj_mushroom,obj_tsumire,obj_gyouza,obj_onion,
+obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke]
 
 // ステージBGM
 audio_play_sound(snd_stage, 0, true)
@@ -19,8 +21,8 @@ global.bonus_combinations[? "hakusai,chicken"] = 100
 global.bonus_combinations[? "usagi,chicken"] = 200
 
 // 水分量
-global.player_water = 10
+global.player_water = 100
 // 熱量
 global.player_calorie = 50
 
-global.timer = 60 * 1
+global.timer = 60 * 180

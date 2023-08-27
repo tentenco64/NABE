@@ -11,6 +11,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"water","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"-10",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"can_eat","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"False",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"fleshness","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"-10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"calorie","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"20",},
   ],
   "parent": {
     "name": "Enemy",

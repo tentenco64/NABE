@@ -14,10 +14,11 @@ if fleshness > 1{
 	init_fleshness = 1
 }
 
-// レア敵の場合、サイズと逃走速度が2倍
+// レア敵の場合、サイズと逃走速度と栄養価が2倍
 if rare{
 	image_xscale *= 2
-	image_yscale *= 2
+	image_yscale *= 2	
+	n_value *= 2
 	initial_move_speed *= 2
 }
 
