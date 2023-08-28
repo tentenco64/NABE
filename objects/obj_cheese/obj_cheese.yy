@@ -2,14 +2,16 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_cheese",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"cheese\"",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"15",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"water","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"0",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"calorie","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"-3",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"fleshness","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"1000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"fleshness","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"100",},
   ],
   "parent": {
     "name": "Enemy",

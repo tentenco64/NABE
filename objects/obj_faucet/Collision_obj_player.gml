@@ -1,5 +1,6 @@
 /// @description 
 if can_use{
+	audio_play_sound(snd_gokugoku, 0, false)
 	can_use = false
 	other.operatable = false
 	global.player_water = 100

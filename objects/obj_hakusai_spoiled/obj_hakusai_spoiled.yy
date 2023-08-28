@@ -9,8 +9,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"-50",},
   ],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/オブジェクト/Enemy.yy",
+    "name": "Enemy_zombie",
+    "path": "folders/オブジェクト/Enemy_zombie.yy",
   },
   "parentObjectId": {
     "name": "obj_hakusai",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hakusai_spoiled",
-    "path": "sprites/spr_hakusai_spoiled/spr_hakusai_spoiled.yy",
+    "name": "spr_teki_hakusaiZ_strip02",
+    "path": "sprites/spr_teki_hakusaiZ_strip02/spr_teki_hakusaiZ_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

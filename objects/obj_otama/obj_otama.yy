@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "オブジェクト",
-    "path": "folders/オブジェクト.yy",
+    "name": "Platyer",
+    "path": "folders/オブジェクト/Platyer.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_otama",
-    "path": "sprites/spr_otama/spr_otama.yy",
+    "name": "spr_player_otama",
+    "path": "sprites/spr_player_otama/spr_player_otama.yy",
   },
   "spriteMaskId": null,
   "visible": true,

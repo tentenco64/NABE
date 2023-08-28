@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "ingredient_zombie",
-    "path": "folders/スプライト/ingredient_zombie.yy",
+    "name": "Ingredient_zombie",
+    "path": "folders/スプライト/Ingredient_zombie.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

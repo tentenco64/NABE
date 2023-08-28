@@ -27,3 +27,9 @@ draw_sprite_ext(spr_UI_water, 0, camera_get_view_width(view_camera[0])-sprite_ge
 
 // 熱量を右側にGUI表示
 draw_sprite_ext(spr_UI_calorie, 0, camera_get_view_width(view_camera[0])-sprite_get_width(spr_UI_calorie), camera_get_view_height(view_camera[0]), 1,  1*global.player_calorie/100, 0, c_white, 1)
+
+// プレイヤー死亡時の処理
+if !instance_exists(obj_player) && restart_now == false{
+	layer_sequence_create("Dead", camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), seq_dead)
+	restart_now = true
+}

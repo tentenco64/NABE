@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "オブジェクト",
-    "path": "folders/オブジェクト.yy",
+    "name": "Platyer",
+    "path": "folders/オブジェクト/Platyer.yy",
   },
   "parentObjectId": null,
   "persistent": false,

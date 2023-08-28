@@ -3,7 +3,7 @@ var _enemy = 0
 
 // SE再生
 if other.can_eat{
-	audio_play_sound(snd_drop, 0, false)
+	audio_play_sound(snd_slice, 0, false)
 }else{
 	audio_play_sound(snd_damaged, 0, false)
 }

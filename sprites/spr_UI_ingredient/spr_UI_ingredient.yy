@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "スプライト",
-    "path": "folders/スプライト.yy",
+    "name": "UI",
+    "path": "folders/スプライト/UI.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

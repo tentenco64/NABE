@@ -10,3 +10,5 @@ x_offset_timer = 50
 y_offset_timer = 150
 
 spr_queue = ds_queue_create()
+
+restart_now = false

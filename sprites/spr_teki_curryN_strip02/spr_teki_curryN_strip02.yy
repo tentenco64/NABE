@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "ingredient",
-    "path": "folders/スプライト/ingredient.yy",
+    "name": "Ingredient",
+    "path": "folders/スプライト/Ingredient.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
