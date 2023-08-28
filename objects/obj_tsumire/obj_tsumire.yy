@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tsumire",
-    "path": "sprites/spr_tsumire/spr_tsumire.yy",
+    "name": "spr_teki_tsumireN_strip02",
+    "path": "sprites/spr_teki_tsumireN_strip02/spr_teki_tsumireN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

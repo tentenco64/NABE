@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_chicken",
-    "path": "sprites/spr_chicken/spr_chicken.yy",
+    "name": "spr_teki_toriN_strip02",
+    "path": "sprites/spr_teki_toriN_strip02/spr_teki_toriN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shirataki",
-    "path": "sprites/spr_shirataki/spr_shirataki.yy",
+    "name": "spr_teki_sitarakiN_strip02",
+    "path": "sprites/spr_teki_sitarakiN_strip02/spr_teki_sitarakiN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

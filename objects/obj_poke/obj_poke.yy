@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pig",
-    "path": "sprites/spr_pig/spr_pig.yy",
+    "name": "spr_teki_butaN_strip02",
+    "path": "sprites/spr_teki_butaN_strip02/spr_teki_butaN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

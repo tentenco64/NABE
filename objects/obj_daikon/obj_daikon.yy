@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_daikon",
-    "path": "sprites/spr_daikon/spr_daikon.yy",
+    "name": "spr_teki_daikonN_strip02",
+    "path": "sprites/spr_teki_daikonN_strip02/spr_teki_daikonN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

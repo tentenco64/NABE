@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fish",
-    "path": "sprites/spr_fish/spr_fish.yy",
+    "name": "spr_teki_sakanaN_strip02",
+    "path": "sprites/spr_teki_sakanaN_strip02/spr_teki_sakanaN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

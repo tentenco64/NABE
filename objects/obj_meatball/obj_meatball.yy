@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_meatball",
-    "path": "sprites/spr_meatball/spr_meatball.yy",
+    "name": "spr_teki_mitobN_strip02",
+    "path": "sprites/spr_teki_mitobN_strip02/spr_teki_mitobN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

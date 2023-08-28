@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_negi",
-    "path": "sprites/spr_negi/spr_negi.yy",
+    "name": "spr_teki_negiN_strip02",
+    "path": "sprites/spr_teki_negiN_strip02/spr_teki_negiN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

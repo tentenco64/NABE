@@ -19,7 +19,7 @@ ds_queue_copy(spr_queue, global.ingredients_queue)
 
 for(var _i=0; _i < ds_queue_size(global.ingredients_queue); _i++){
 	var _inst = ds_queue_dequeue(spr_queue)
-	draw_sprite(_inst.sprite_index, 0, sprite_get_width(spr_UI_ingredient)/5 * _i + 50, camera_get_view_height(view_camera[0]) - sprite_get_height(spr_UI_ingredient)/2)
+	draw_sprite_ext(_inst.sprite_index, 0, sprite_get_width(spr_UI_ingredient)/5 * _i + 50, camera_get_view_height(view_camera[0]) - sprite_get_height(spr_UI_ingredient)/2, _inst.scale/IMAGE_MAGNIFICATION, _inst.scale/IMAGE_MAGNIFICATION, 0, c_white, 1)
 }
 
 // 水分を右側にGUI表示

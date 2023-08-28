@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_curry",
-    "path": "sprites/spr_curry/spr_curry.yy",
+    "name": "spr_teki_curryN_strip02",
+    "path": "sprites/spr_teki_curryN_strip02/spr_teki_curryN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mushroom",
-    "path": "sprites/spr_mushroom/spr_mushroom.yy",
+    "name": "spr_teki_kinokoN_strip02",
+    "path": "sprites/spr_teki_kinokoN_strip02/spr_teki_kinokoN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

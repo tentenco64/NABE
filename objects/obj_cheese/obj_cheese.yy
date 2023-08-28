@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cheese",
-    "path": "sprites/spr_cheese/spr_cheese.yy",
+    "name": "spr_teki_chizuN_strip02",
+    "path": "sprites/spr_teki_chizuN_strip02/spr_teki_chizuN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

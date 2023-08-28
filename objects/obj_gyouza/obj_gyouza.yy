@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gyouza",
-    "path": "sprites/spr_gyouza/spr_gyouza.yy",
+    "name": "spr_teki_gyozaN_strip02",
+    "path": "sprites/spr_teki_gyozaN_strip02/spr_teki_gyozaN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

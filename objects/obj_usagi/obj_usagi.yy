@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_usagi",
-    "path": "sprites/spr_usagi/spr_usagi.yy",
+    "name": "spr_teki_usagiN_strip02",
+    "path": "sprites/spr_teki_usagiN_strip02/spr_teki_usagiN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

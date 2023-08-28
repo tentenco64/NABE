@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_onion",
-    "path": "sprites/spr_onion/spr_onion.yy",
+    "name": "spr_teki_tamanegiN_strip02",
+    "path": "sprites/spr_teki_tamanegiN_strip02/spr_teki_tamanegiN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

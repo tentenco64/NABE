@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_egg",
-    "path": "sprites/spr_egg/spr_egg.yy",
+    "name": "spr_teki_tamagoN_strip02",
+    "path": "sprites/spr_teki_tamagoN_strip02/spr_teki_tamagoN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

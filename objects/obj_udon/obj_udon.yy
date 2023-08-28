@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_udon",
-    "path": "sprites/spr_udon/spr_udon.yy",
+    "name": "spr_teki_udonN_strip02",
+    "path": "sprites/spr_teki_udonN_strip02/spr_teki_udonN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

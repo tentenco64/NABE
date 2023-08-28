@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_potato",
-    "path": "sprites/spr_potato/spr_potato.yy",
+    "name": "spr_teki_potetoN_strip02",
+    "path": "sprites/spr_teki_potetoN_strip02/spr_teki_potetoN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

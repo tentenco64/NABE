@@ -38,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tofu",
-    "path": "sprites/spr_tofu/spr_tofu.yy",
+    "name": "spr_teki_touhuN_strip02",
+    "path": "sprites/spr_teki_touhuN_strip02/spr_teki_touhuN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tomato",
-    "path": "sprites/spr_tomato/spr_tomato.yy",
+    "name": "spr_teki_tomatoN_strip02",
+    "path": "sprites/spr_teki_tomatoN_strip02/spr_teki_tomatoN_strip02.yy",
   },
   "spriteMaskId": null,
   "visible": true,
