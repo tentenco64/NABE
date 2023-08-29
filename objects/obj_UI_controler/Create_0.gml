@@ -12,3 +12,6 @@ y_offset_timer = 150
 spr_queue = ds_queue_create()
 
 restart_now = false
+
+cam_h = camera_get_view_height(view_camera[0])
+cam_w = camera_get_view_width(view_camera[0])

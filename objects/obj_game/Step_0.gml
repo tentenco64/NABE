@@ -1,5 +1,9 @@
 /// @description 
 
+// 水分量の最大値
+if global.player_water > 100{
+	global.player_water = 100
+}
 // 水分量の自然減少。何もしなければ1分で空になる
 if global.player_water > 0{
 	global.player_water -= 100/60/60 * (global.player_calorie / 100)
@@ -15,6 +19,11 @@ if global.player_water < 20{
 }
 if global.player_water == 0{
 	audio_stop_sound(snd_heartbeat)
+}
+
+// 熱量の最大値
+if global.player_calorie > 100{
+	global.player_calorie = 100
 }
 
 // 熱量の自然減少

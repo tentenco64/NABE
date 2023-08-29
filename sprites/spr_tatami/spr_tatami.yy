@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tatami",
-  "bbox_bottom": 606,
+  "bbox_bottom": 406,
   "bbox_left": 0,
-  "bbox_right": 605,
+  "bbox_right": 405,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb4f8c36-d79a-4aa1-95e8-8b5a94c00e74",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7fb9ebd7-96bf-4e84-9840-1ac2d0dcdd3d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 607,
+  "height": 407,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e9da17b6-04da-451a-89e6-471d8e3470f3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f5768f4f-e668-40ca-a1a7-0b05f4e22d85","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb4f8c36-d79a-4aa1-95e8-8b5a94c00e74","path":"sprites/spr_tatami/spr_tatami.yy",},},},"Disabled":false,"id":"32b79cd6-7cb6-47b5-ae02-d4693053772e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7fb9ebd7-96bf-4e84-9840-1ac2d0dcdd3d","path":"sprites/spr_tatami/spr_tatami.yy",},},},"Disabled":false,"id":"15f188c4-b35d-4825-a22f-c14443ea7c49","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 606,
+  "width": 406,
 }

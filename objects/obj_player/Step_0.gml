@@ -29,8 +29,6 @@ if keyboard_check(ord("S")){
 	move_down = 0
 }
 
-show_debug_message([move_right, move_left, move_down, move_up])
-
 _vx = (move_right - move_left) * move_speed * global.player_calorie / 100
 _vy = (move_down - move_up) * move_speed* global.player_calorie / 100
 
@@ -64,7 +62,7 @@ if operatable{
 		if !place_meeting(x + _vx, y, obj_wall){
 			x += _vx 
 		}
-		if !place_meeting(x, y + _vy, obj_wall) && y+_vy < (room_height-sprite_get_height(spr_UI_ingredient)-sprite_get_height(spr_player)/2){
+		if !place_meeting(x, y + _vy, obj_wall){
 			y += _vy
 		}
 	}
@@ -114,3 +112,6 @@ if keyboard_check_released(ord("R")){
 	audio_stop_sound(snd_dyson)
 	instance_destroy(obj_wind)
 }
+
+// カメラをプレイヤーに追従させる
+camera_set_view_pos(view_camera[0], x - 550 , y - 300); // If you don't want the y view to move then set it to 0 instead of y - _vy.
