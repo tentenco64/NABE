@@ -8,9 +8,6 @@ if other.can_eat{
 	audio_play_sound(snd_damaged, 0, false)
 }
 
-// プレイヤーに接触した食材は死ぬ
-other.live = false
-
 // 食材キューに追加
 ds_queue_enqueue(global.ingredients_queue, other)
 // 食材キューの最大数を超えたらデキュー

@@ -37,8 +37,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_donteat",
-    "path": "sprites/spr_donteat/spr_donteat.yy",
+    "name": "spr_teki_ageless_strip0280",
+    "path": "sprites/spr_teki_ageless_strip0280/spr_teki_ageless_strip0280.yy",
   },
   "spriteMaskId": null,
   "visible": true,
