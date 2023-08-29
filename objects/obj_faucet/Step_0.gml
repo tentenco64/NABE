@@ -1,3 +1,5 @@
 /// @description
 
-x += move_speed
+if can_use{
+	x += move_speed
+}

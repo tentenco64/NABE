@@ -27,5 +27,7 @@ global.bonus_combinations[? "usagi,chicken"] = 200
 global.player_water = 100
 // 熱量
 global.player_calorie = 50
-
+// タイマー
 global.timer = 60 * 180
+// 現在のフレーム数
+global.current_frame = 0

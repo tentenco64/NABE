@@ -1,5 +1,8 @@
 /// @description 
 
+// 現在フレーム
+global.current_frame += 1
+
 // 水分量の最大値
 if global.player_water > 100{
 	global.player_water = 100
@@ -47,3 +50,4 @@ if ((global.player_water <= 0 || global.timer == 0) && instance_exists(obj_playe
 	audio_play_sound(snd_scream, 0, false)
 	instance_destroy(obj_player)
 }
+

@@ -15,3 +15,26 @@ restart_now = false
 
 cam_h = camera_get_view_height(view_camera[0])
 cam_w = camera_get_view_width(view_camera[0])
+
+score_start_flame = 0
+current_frame = 0
+
+// 包丁の移動量
+move_distance_houtyou = 571
+// 蓋の目標角度
+move_direction_futa = -60
+
+// 食材の初期値
+start_x_one = -440 + cam_w/2
+start_x_two = -330+ cam_w/2
+start_x_three = -220+ cam_w/2
+start_x_four = -110+ cam_w/2
+start_x_five = 0+ cam_w/2
+start_y_enemy = 290 +cam_h/2
+
+// 食材の移動量
+move_distance_one = 252 + 440
+move_distance_two = 252 + 330
+move_distance_three = 252 + 220
+move_distance_four = 252 + 110
+move_distance_five = 252
