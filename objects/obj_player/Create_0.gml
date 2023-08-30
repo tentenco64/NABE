@@ -19,7 +19,7 @@ bullet_ct = 60
 ingredient_array = array_create(0, "")
 
 // 保持できる食材の数
-max_ingredients = 5
+max_ingredients = 10
 
 // プレイヤーの向き
 player_dir = 0

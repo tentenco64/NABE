@@ -1,8 +1,15 @@
 /// @description スポーナー
 
-if instance_number(obj_par_enemy) < 5 {
-    var _enemy_index = irandom(array_length(enemy_obj_list) - 1)
-    var _spawn_obj = enemy_obj_list[_enemy_index]
+if instance_number(obj_par_enemy) < 20 {
+	var _enemy_index = irandom(array_length(enemy_obj_list) - 1)
+	var _spawn_obj = enemy_obj_list[_enemy_index]
+	// 同じ種類がフィールドに居る場合再生成
+	// まな板の上はチェックされていないらしい
+	while instance_exists(_spawn_obj){
+		show_debug_message("true")
+		_enemy_index = irandom(array_length(enemy_obj_list) - 1)
+		_spawn_obj = enemy_obj_list[_enemy_index]
+	}
     var _spawn_point_x = random(room_width)
     var _spawn_point_y = random(room_height)
 

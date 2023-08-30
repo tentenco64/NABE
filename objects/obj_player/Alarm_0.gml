@@ -25,7 +25,6 @@ for (var _i = 0; _i < array_length(_keys); _i++){
 			break
 		}
 	}
-	show_debug_message(_is_bonus)
     if (_is_bonus) {
 		audio_play_sound(snd_bonus, 0, false)
         var _points = global.bonus_combinations[? _key];

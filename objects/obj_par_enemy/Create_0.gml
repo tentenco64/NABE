@@ -28,7 +28,3 @@ if fleshness > 1{
 }else{
 	init_fleshness = 1
 }
-
-
-
-show_debug_message(rare)

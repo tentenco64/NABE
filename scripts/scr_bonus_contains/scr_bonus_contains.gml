@@ -11,7 +11,6 @@ function scr_bonus_contains(_array, _value){
 		}
 		*/
         if (_array[_i].name == _value) {
-			show_debug_message("true")
             return true;
         }
     }

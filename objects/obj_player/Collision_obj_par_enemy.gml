@@ -21,4 +21,5 @@ global.player_water += other.water
 // 食材に熱を奪われる
 global.player_calorie += other.calorie
 
-instance_destroy(other)
+// インスタンスはまだ削除しない
+// instance_destroy(other)

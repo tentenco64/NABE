@@ -5,13 +5,14 @@ layer_sequence_create("Transition", 0, 0, seq_transition_end)
 
 global.player_score = 0
 
+// スポーンレート
 spawn_rate = 60
 alarm[0] = spawn_rate
 
 // スポーンする敵リスト
 enemy_obj_list = [obj_hakusai, obj_chicken, obj_usagi, obj_donteat, obj_egg, obj_curry, obj_udon,
 obj_daikon,obj_konnnyaku,obj_tofu,obj_rice,obj_fish,obj_mushroom,obj_tsumire,obj_gyouza,obj_onion,
-obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke, obj_faucet]
+obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke, obj_faucet, obj_carrot, obj_kimuchi]
 
 // ステージBGM
 audio_play_sound(snd_stage, 0, true)
@@ -19,8 +20,25 @@ audio_play_sound(snd_gutugutu, 0, true)
 
 global.ingredients_queue = ds_queue_create()
 
+
+// スコアボーナス
 global.bonus_combinations = ds_map_create()
+global.bonus_combinations[? "rice"] = 200
+global.bonus_combinations[? "udon"] = 200
+global.bonus_combinations[? "curry"] = 200
 global.bonus_combinations[? "poke,chicken,rabbit"] = 200
+global.bonus_combinations[? "daikon,hakusai,mushroom,negi"] = 200
+global.bonus_combinations[? "usagi,hakusai,carrot,tofu"] = 200
+global.bonus_combinations[? "hakusai,mushroom,tofu,kimuchi"] = 200
+global.bonus_combinations[? "hakusai,mushroom,tofu,poke"] = 200
+global.bonus_combinations[? "chicken,tsumire,tofu"] = 200
+global.bonus_combinations[? "fish,negi,hakusai,tofu"] = 200
+global.bonus_combinations[? "egg,konnnyaku,daikon"] = 200
+global.bonus_combinations[? "rice,cheeze,onion"] = 200
+global.bonus_combinations[? "onion,carrot,potato,poke,curry"] = 200
+global.bonus_combinations[? "negi,chicken,egg,udon"] = 200
+global.bonus_combinations[? "negi,shirataki,tofu,mushroom"] = 200
+
 
 // 水分量
 global.player_water = 100

@@ -30,6 +30,11 @@ start_x_two = -330+ cam_w/2
 start_x_three = -220+ cam_w/2
 start_x_four = -110+ cam_w/2
 start_x_five = 0+ cam_w/2
+start_x_onehalf = -385 + cam_w/2
+start_x_twohalf = -275+ cam_w/2
+start_x_threehalf = -165+ cam_w/2
+start_x_fourhalf = -55+ cam_w/2
+start_x_fivehalf = 55+ cam_w/2
 start_y_enemy = 290 +cam_h/2
 
 // 食材の移動量
@@ -38,3 +43,8 @@ move_distance_two = 252 + 330
 move_distance_three = 252 + 220
 move_distance_four = 252 + 110
 move_distance_five = 252
+move_distance_onehalf = 252 + 385
+move_distance_twohalf = 252 + 275
+move_distance_threehalf = 252 + 165
+move_distance_fourhalf = 252 + 55
+move_distance_fivehalf = 252 - 55

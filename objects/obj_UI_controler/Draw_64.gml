@@ -71,12 +71,8 @@ draw_sprite_ext(spr_UI_thermo, 0, 521.3362 + cam_w/2, 201.3948+cam_h/2, 1, 1, 0,
 // まな板に食材を表示
 ds_queue_copy(spr_queue, global.ingredients_queue)
 
-var _space = 110
-
 _gui_y = start_y_enemy
 for(var _i=0; _i < ds_queue_size(global.ingredients_queue); _i++){
-	//var _inst = ds_queue_dequeue(spr_queue)
-	//draw_sprite_ext(_inst.sprite_index, 0, 180 + _space * _i, camera_get_view_height(view_camera[0]) - sprite_get_height(spr_UI_manaita)/2, _inst.scale/IMAGE_MAGNIFICATION, _inst.scale/IMAGE_MAGNIFICATION, 0, c_white, 1)
 	var _inst = ds_queue_dequeue(spr_queue)
 	switch _i+1{
 		case 1:{
@@ -86,31 +82,63 @@ for(var _i=0; _i < ds_queue_size(global.ingredients_queue); _i++){
 			}
 		}break
 		case 2:{
+			_gui_x = start_x_onehalf
+			if score_start_flame >= 15{
+				_gui_x = start_x_onehalf + (move_distance_onehalf * (current_frame / 60))
+			}
+		}break
+		case 3:{
 			_gui_x = start_x_two
 			if score_start_flame >= 20{
 				_gui_x = start_x_two + (move_distance_two * (current_frame / 60))
 			}
 		}break
-		case 3:{
+		case 4:{
+			_gui_x = start_x_twohalf
+			if score_start_flame >= 25{
+				_gui_x = start_x_twohalf + (move_distance_twohalf * (current_frame / 60))
+			}
+		}break
+		case 5:{
 			_gui_x = start_x_three
 			if score_start_flame >= 30{
 				_gui_x = start_x_three + (move_distance_three * (current_frame / 60))
 			}
 		}break
-		case 4:{
+		case 6:{
+			_gui_x = start_x_threehalf
+			if score_start_flame >= 35{
+				_gui_x = start_x_threehalf + (move_distance_threehalf * (current_frame / 60))
+			}
+		}break
+		case 7:{
 			_gui_x = start_x_four
 			if score_start_flame >= 40{
 				_gui_x = start_x_four + (move_distance_four * (current_frame / 60))
 			}
 		}break
-		case 5:{
+		case 8:{
+			_gui_x = start_x_fourhalf
+			if score_start_flame >= 45{
+				_gui_x = start_x_fourhalf + (move_distance_fourhalf * (current_frame / 60))
+			}
+		}break
+		case 9:{
 			_gui_x = start_x_five
 			if score_start_flame >= 50{
 				_gui_x = start_x_five + (move_distance_five * (current_frame / 60))
 			}
 		}break
+		case 10:{
+			_gui_x = start_x_fivehalf
+			if score_start_flame >= 55{
+				_gui_x = start_x_fivehalf + (move_distance_fivehalf * (current_frame / 60))
+			}
+		}break
 	}
 	draw_sprite_ext(_inst.sprite_index, 0, _gui_x, _gui_y, _inst.scale/IMAGE_MAGNIFICATION, _inst.scale/IMAGE_MAGNIFICATION, 0, c_white, 1)
+	// インスタンスをここで削除する
+	instance_destroy(_inst)
 }
 
 // プレイヤー死亡時の処理
