@@ -21,5 +21,8 @@ global.player_water += other.water
 // 食材に熱を奪われる
 global.player_calorie += other.calorie
 
+// 捕まえた敵の数
+global.get_enemy += 1
+
 // インスタンスはまだ削除しない
 // instance_destroy(other)

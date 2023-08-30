@@ -29,78 +29,76 @@ for (var _i = 0; _i < array_length(_keys); _i++){
 			break
 		}
 	}
+	var _multiplier = 1
     if (_is_bonus) {
 		audio_play_sound(snd_bonus, 0, false)
-        var _bonus_name = global.bonus_combinations[? _key];
-		var _multiplier = 1
-		switch _bonus_name{
-			case "締めのおじや":{
-				global.nabe_message = "締めのおじやが完成！食材の出汁が染み込んでるぞ！"
-				_multiplier = 1.5
-			}break
-			case "締めのうどん":{
-				global.nabe_message = "締めのうどんが完成！食材の出汁が染み込んでるぞ！"
-				_multiplier = 1.5
-			}break
-			case "カレー鍋":{
-				global.nabe_message = "カレー鍋が完成！大抵のものはカレー味にすれば美味しくなるぞ！"
-				_multiplier = 1.5
-			}break
-			case "肉鍋":{
-				global.nabe_message = "肉鍋が完成！肉！肉！！肉！！！野性味あふれる！"
-				_multiplier = 2
-			}break
-			case "野菜鍋":{
-				global.nabe_message = "野菜鍋が完成！野菜！野菜！！野菜！！！とってもヘルシー！"
-				_multiplier = 2
-			}break
-			case "ウサギ鍋":{
-				global.nabe_message = "ウサギ鍋が完成！肉だけどヘルシーであっさり味な鍋！日本ではあんまり食べる機会はないぞ！"
-				_multiplier = 2.5
-			}break
-			case "キムチ鍋":{
-				global.nabe_message = "キムチ鍋が完成！キムチの辛味が具材に染みて身体が温まる！"
-				_multiplier = 2.5
-			}break
-			case "ミルフィーユ鍋":{
-				global.nabe_message = "豚と白菜のミルフィーユが完成！ぎゅうぎゅう詰めの豚肉と白菜が旨味と共に鍋にあふれている！"
-				_multiplier = 2.5
-			}break
-			case "鶏団子鍋":{
-				global.nabe_message = "鶏団子鍋が完成！鶏肉と鳥つみれ、Wの旨味が染みている！"
-				_multiplier = 2.5
-			}break
-			case "魚介鍋":{
-				global.nabe_message = "魚介鍋が完成！ほくほくの白身魚が美味いぞ！"
-				_multiplier = 2.5
-			}break
-			case "おでん":{
-				global.nabe_message = "おでんが完成！からしと一緒にどうぞ！(ちくわは付属しておりません)"
-				_multiplier = 3
-			}break
-			case "チーズリゾット":{
-				global.nabe_message = "チーズリゾットが完成！土鍋で生まれたおこげが美味いぞ！"
-				_multiplier = 3
-			}break
-			case "ハヤシライス":{
-				global.nabe_message = "ハヤシライスが完成！一般的なデミグラスではなく伝統的なトマト風味だ！"
-				_multiplier = 3
-			}break
-			case "カレーライス":{
-				global.nabe_message = "カレーライスが完成！みんな大好き、カレーライスが鍋界に殴り込みだ！"
-				_multiplier = 3
-			}break
-			case "月見うどん":{
-				global.nabe_message = "月見うどんが完成！つゆに浮かべた卵が月を模しているぞ！風流だね！"
-				_multiplier = 3
-			}break
-			case "肉無しすき焼き":{
-				global.nabe_message = "すき焼きが完成！………肉が入ってないぞ！！！！！"
-				_multiplier = 3
-			}break
+        var _bonus_name = global.bonus_combinations[? _key];		
+		if _bonus_name == "締めのおじや"{
+			global.nabe_message = "締めのおじやが完成! 食材の出汁が染み込んでるぞ!"
+			_multiplier = 1.5
 		}
-        _score *= _multiplier;		
-    }
+		if _bonus_name == "締めのうどん"{
+			global.nabe_message = "締めのうどんが完成! 食材の出汁が染み込んでるぞ!"
+			_multiplier = 1.5
+		}
+		if _bonus_name == "カレー鍋"{
+			global.nabe_message = "カレー鍋が完成! 大抵のものはカレー味にすれば美味しくなるぞ!"
+			_multiplier = 1.5
+		}
+		if _bonus_name == "肉鍋"{
+			global.nabe_message = "肉鍋が完成! 肉! 肉!! 肉!!! 野性味あふれる!"
+			_multiplier = 2
+		}
+		if _bonus_name == "野菜鍋"{
+			global.nabe_message = "野菜鍋が完成! 野菜! 野菜!! 野菜!!! とってもヘルシー!"
+			_multiplier = 2
+		}
+		if _bonus_name == "ウサギ鍋"{
+			global.nabe_message = "ウサギ鍋が完成! 肉だけどヘルシーであっさり味な鍋! 日本ではあんまり食べる機会はないぞ!"
+			_multiplier = 2.5
+		}
+		if _bonus_name == "キムチ鍋"{
+			global.nabe_message = "キムチ鍋が完成! キムチの辛味が具材に染みて身体が温まる!"
+			_multiplier = 2.5
+		}
+		if _bonus_name == "ミルフィーユ鍋"{
+			global.nabe_message = "豚と白菜のミルフィーユが完成! ぎゅうぎゅう詰めの豚肉と白菜が旨味と共に鍋にあふれている!"
+			_multiplier = 2.5
+		}
+		if _bonus_name == "鶏団子鍋"{
+			global.nabe_message = "鶏団子鍋が完成! 鶏肉と鳥つみれ, Wの旨味が染みている!"
+			_multiplier = 2.5
+		}
+		if _bonus_name == "魚介鍋"{
+			global.nabe_message = "魚介鍋が完成! ほくほくの白身魚が美味いぞ! "
+			_multiplier = 2.5
+		}
+		if _bonus_name == "おでん"{
+			global.nabe_message = "おでんが完成! からしと一緒にどうぞ! (ちくわは付属しておりません)"
+			_multiplier = 3
+		}
+		if _bonus_name == "チーズリゾット"{
+			global.nabe_message = "チーズリゾットが完成! 土鍋で生まれたおこげが美味いぞ!"
+			_multiplier = 3
+		}
+		if _bonus_name == "ハヤシライス"{
+			global.nabe_message = "ハヤシライスが完成! 一般的なデミグラスではなく伝統的なトマト風味だ!"
+			_multiplier = 3
+		}
+		if _bonus_name == "カレーライス"{
+			global.nabe_message = "カレーライスが完成! みんな大好き、カレーライスが鍋界に殴り込みだ!"
+			_multiplier = 3
+		}
+		if _bonus_name == "月見うどん"{
+			global.nabe_message = "月見うどんが完成! つゆに浮かべた卵が月を模しているぞ! 風流だね!"
+			_multiplier = 3
+		}
+		if _bonus_name == "肉無しすき焼き"{
+			global.nabe_message = "すき焼きが完成! ......肉が入ってないぞ!!!!!!"
+			_multiplier = 3
+		}
+	}
+	_score *= _multiplier;
 }
 
 global.player_score += _score

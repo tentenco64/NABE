@@ -1,5 +1,7 @@
 /// @description 
 
+show_debug_message([obj_player.x, obj_player.y])
+
 // 移動
 var _vx = 0
 var _vy = 0
@@ -115,3 +117,17 @@ if keyboard_check_released(ord("R")){
 
 // カメラをプレイヤーに追従させる
 camera_set_view_pos(view_camera[0], x - 550 , y - 300); // If you don't want the y view to move then set it to 0 instead of y - _vy.
+
+// カメラの位置調整
+// カメラの位置を取得
+var _cam_x = camera_get_view_x(view_camera[0]);
+var _cam_y = camera_get_view_y(view_camera[0]);
+var _cam_w = camera_get_view_width(view_camera[0]);
+var _cam_h = camera_get_view_height(view_camera[0]);
+
+// カメラの位置を調整
+_cam_x = clamp(_cam_x, 0, room_width - _cam_w);
+_cam_y = clamp(_cam_y, 0, room_height - _cam_h);
+
+// カメラの位置を設定
+camera_set_view_pos(view_camera[0], _cam_x, _cam_y);

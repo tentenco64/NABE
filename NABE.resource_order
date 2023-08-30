@@ -171,7 +171,7 @@
     {"name":"obj_tofu_spoiled","order":17,"path":"objects/obj_tofu_spoiled/obj_tofu_spoiled.yy",},
     {"name":"obj_UI_button_left","order":2,"path":"objects/obj_UI_button_left/obj_UI_button_left.yy",},
     {"name":"spr_teki_mitobZ_strip02","order":14,"path":"sprites/spr_teki_mitobZ_strip02/spr_teki_mitobZ_strip02.yy",},
-    {"name":"spr_title","order":16,"path":"sprites/spr_title/spr_title.yy",},
+    {"name":"spr_title","order":21,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_teki_tsumireN_strip02","order":19,"path":"sprites/spr_teki_tsumireN_strip02/spr_teki_tsumireN_strip02.yy",},
     {"name":"spr_teki_hakusaiZ_strip02","order":10,"path":"sprites/spr_teki_hakusaiZ_strip02/spr_teki_hakusaiZ_strip02.yy",},
     {"name":"obj_carrot_spoiled","order":22,"path":"objects/obj_carrot_spoiled/obj_carrot_spoiled.yy",},

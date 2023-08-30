@@ -1,20 +1,20 @@
 /// @description 
 
+cam_h = camera_get_view_height(view_camera[0])
+cam_w = camera_get_view_width(view_camera[0])
+
 x_offset_score = 50
 y_offset_score = 50
 
 x_offset_water = 50
 y_offset_water = 250
 
-x_offset_timer = 50
-y_offset_timer = 150
+x_offset_timer = 521.3362 + cam_w/2
+y_offset_timer = 30
 
 spr_queue = ds_queue_create()
 
 restart_now = false
-
-cam_h = camera_get_view_height(view_camera[0])
-cam_w = camera_get_view_width(view_camera[0])
 
 score_start_flame = 0
 current_frame = 0
@@ -54,6 +54,7 @@ board_x = 2;
 board_y = 0;
 board_width = sprite_get_width(spr_UI_keijiban)*0.5;
 board_height = sprite_get_height(spr_UI_keijiban)*0.5;
-global.nabe_message = "どんな鍋が出来上がるのか楽しみ！";
+global.nabe_message = "どんな鍋が出来上がるのか楽しみ!";
+pre_text = global.nabe_message
 text_x = board_width;
 surf = surface_create(board_width-10, board_height);

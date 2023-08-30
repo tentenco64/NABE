@@ -3,6 +3,7 @@ audio_stop_all()
 
 layer_sequence_create("Transition", 0, 0, seq_transition_end)
 
+// スコア関係
 global.player_score = 0
 
 // スポーンレート
@@ -50,3 +51,6 @@ global.timer = 60 * 180
 global.current_frame = 0
 
 global.coocked_queue = ds_queue_create()
+
+// 捕まえた敵の数
+global.get_enemy = 0

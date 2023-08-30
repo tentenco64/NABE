@@ -4,16 +4,20 @@ if keyboard_check_pressed(vk_space){
 }
 
 // スコアを右上に描画
-draw_set_font(fnt_score)
-draw_text(camera_get_view_width(view_camera[0]) - x_offset_score, y_offset_score, string(global.player_score))
+// draw_set_font(fnt_score)
+// draw_text(camera_get_view_width(view_camera[0]) - x_offset_score, y_offset_score, string(global.player_score))
 
 // 水分を右上に描画
-draw_set_font(fnt_score)
-draw_text(camera_get_view_width(view_camera[0]) - x_offset_water, y_offset_water, string(global.player_water))
+//draw_set_font(fnt_score)
+//draw_text(camera_get_view_width(view_camera[0]) - x_offset_water, y_offset_water, string(global.player_water))
 
 // 制限時間を右上に描画
 draw_set_font(fnt_score)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
 draw_text(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, string(global.timer))
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
 
 // まな板をGUI表示
 draw_sprite_ext(spr_UI_manaita, 0, 0, cam_h, 1, 0.6591215, 0, c_white, 1)
@@ -150,7 +154,7 @@ if surface_exists(surf){
 	draw_clear_alpha(c_black, 0)
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
-	draw_text_color(text_x, sprite_get_height(spr_UI_keijiban)*0.5/2, global.nabe_message, c_yellow, c_yellow, c_yellow, c_yellow, 1)
+	draw_text_color(text_x, sprite_get_height(spr_UI_keijiban)*0.5/2, global.nabe_message + "   現在スコア: " + string(global.player_score), c_yellow, c_yellow, c_yellow, c_yellow, 1)
 	draw_set_halign(fa_left)
 	draw_set_valign(fa_top)
 	surface_reset_target()

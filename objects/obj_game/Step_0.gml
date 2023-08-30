@@ -58,3 +58,4 @@ if ((global.player_water <= 0 || global.timer == 0) && instance_exists(obj_playe
 //	}
 }
 
+
