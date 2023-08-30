@@ -20,8 +20,7 @@ audio_play_sound(snd_gutugutu, 0, true)
 global.ingredients_queue = ds_queue_create()
 
 global.bonus_combinations = ds_map_create()
-global.bonus_combinations[? "hakusai,chicken"] = 100
-global.bonus_combinations[? "usagi,chicken"] = 200
+global.bonus_combinations[? "poke,chicken,rabbit"] = 200
 
 // 水分量
 global.player_water = 100

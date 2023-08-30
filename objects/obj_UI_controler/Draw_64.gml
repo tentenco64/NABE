@@ -114,7 +114,7 @@ for(var _i=0; _i < ds_queue_size(global.ingredients_queue); _i++){
 }
 
 // プレイヤー死亡時の処理
-if !instance_exists(obj_player) && restart_now == false{
-	layer_sequence_create("Dead", camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), seq_dead)
-	restart_now = true
-}
+//if !instance_exists(obj_player) && restart_now == false{
+//	layer_sequence_create("Dead", camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), seq_dead)
+//	restart_now = true
+//}

@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8a65550-12e0-40f2-99e4-680b9998f5cb",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fac24378-37ba-4723-8bb6-ba7230d0463a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f92f6655-37c6-46ea-88fa-0beda09fe0a7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23e9819f-3d09-4931-a9e4-81f7daf78d07",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6edf3507-f954-438f-9049-a26498c60645","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"01c43495-8e37-4efb-bd4f-8f2193f30d44","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8a65550-12e0-40f2-99e4-680b9998f5cb","path":"sprites/spr_teki_konnyakuZ_strip02/spr_teki_konnyakuZ_strip02.yy",},},},"Disabled":false,"id":"b1679113-3516-4f22-bf6a-869b9d5e520e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fac24378-37ba-4723-8bb6-ba7230d0463a","path":"sprites/spr_teki_konnyakuZ_strip02/spr_teki_konnyakuZ_strip02.yy",},},},"Disabled":false,"id":"34f49dfe-8390-4950-91aa-4eb720400dba","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f92f6655-37c6-46ea-88fa-0beda09fe0a7","path":"sprites/spr_teki_konnyakuZ_strip02/spr_teki_konnyakuZ_strip02.yy",},},},"Disabled":false,"id":"5e2a9971-1d56-46dc-9019-272842239c49","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23e9819f-3d09-4931-a9e4-81f7daf78d07","path":"sprites/spr_teki_konnyakuZ_strip02/spr_teki_konnyakuZ_strip02.yy",},},},"Disabled":false,"id":"594765e5-4f62-439a-8279-c2be3c2ab969","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

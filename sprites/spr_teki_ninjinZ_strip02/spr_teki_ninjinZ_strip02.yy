@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4df5158-49b6-4b23-9041-98fa08144536",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40ed1ce4-c41d-487f-af58-5f82f921f891",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"848049d8-09e1-4ec7-83b4-918b26ca04cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5050807-6821-425d-9dc9-2e130826b3fa",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"857f6919-c115-4ef3-bb7a-5107a0c152b2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a40083bb-35f5-406a-afe6-5015b72e1940","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c4df5158-49b6-4b23-9041-98fa08144536","path":"sprites/spr_teki_ninjinZ_strip02/spr_teki_ninjinZ_strip02.yy",},},},"Disabled":false,"id":"0270d77b-8ddb-4864-941e-fa34bb12c3bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"40ed1ce4-c41d-487f-af58-5f82f921f891","path":"sprites/spr_teki_ninjinZ_strip02/spr_teki_ninjinZ_strip02.yy",},},},"Disabled":false,"id":"b86c7e5e-283b-402e-b176-8be4109233a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"848049d8-09e1-4ec7-83b4-918b26ca04cc","path":"sprites/spr_teki_ninjinZ_strip02/spr_teki_ninjinZ_strip02.yy",},},},"Disabled":false,"id":"4bcc2994-bbd8-4659-a574-4553ba85678d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e5050807-6821-425d-9dc9-2e130826b3fa","path":"sprites/spr_teki_ninjinZ_strip02/spr_teki_ninjinZ_strip02.yy",},},},"Disabled":false,"id":"b8a8ba0f-a992-48a7-9c8e-175acdc1eada","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

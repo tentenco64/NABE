@@ -47,7 +47,12 @@ if ((global.player_water <= 0 || global.timer == 0) && instance_exists(obj_playe
 	if global.timer == 0{
 		audio_play_sound(snd_timeup, 0, false)
 	}
-	audio_play_sound(snd_scream, 0, false)
-	instance_destroy(obj_player)
+	with(obj_player){
+	instance_change(obj_player_down,true)
+}
+	// プレイヤーインスタンスをダウン用のインスタンスに変更
+//	with(obj_player){
+//		instance_change(obj_player_down, 0)
+//	}
 }
 
