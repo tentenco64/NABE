@@ -48,3 +48,12 @@ move_distance_twohalf = 252 + 275
 move_distance_threehalf = 252 + 165
 move_distance_fourhalf = 252 + 55
 move_distance_fivehalf = 252 - 55
+
+// 掲示板用
+board_x = 2;
+board_y = 0;
+board_width = sprite_get_width(spr_UI_keijiban)*0.5;
+board_height = sprite_get_height(spr_UI_keijiban)*0.5;
+global.nabe_message = "どんな鍋が出来上がるのか楽しみ！";
+text_x = board_width;
+surf = surface_create(board_width-10, board_height);

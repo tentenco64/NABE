@@ -23,22 +23,22 @@ global.ingredients_queue = ds_queue_create()
 
 // スコアボーナス
 global.bonus_combinations = ds_map_create()
-global.bonus_combinations[? "rice"] = 200
-global.bonus_combinations[? "udon"] = 200
-global.bonus_combinations[? "curry"] = 200
-global.bonus_combinations[? "poke,chicken,rabbit"] = 200
-global.bonus_combinations[? "daikon,hakusai,mushroom,negi"] = 200
-global.bonus_combinations[? "usagi,hakusai,carrot,tofu"] = 200
-global.bonus_combinations[? "hakusai,mushroom,tofu,kimuchi"] = 200
-global.bonus_combinations[? "hakusai,mushroom,tofu,poke"] = 200
-global.bonus_combinations[? "chicken,tsumire,tofu"] = 200
-global.bonus_combinations[? "fish,negi,hakusai,tofu"] = 200
-global.bonus_combinations[? "egg,konnnyaku,daikon"] = 200
-global.bonus_combinations[? "rice,cheeze,onion"] = 200
-global.bonus_combinations[? "onion,carrot,potato,poke,curry"] = 200
-global.bonus_combinations[? "negi,chicken,egg,udon"] = 200
-global.bonus_combinations[? "negi,shirataki,tofu,mushroom"] = 200
-
+ds_map_add(global.bonus_combinations, "rice", "締めのおじや")
+ds_map_add(global.bonus_combinations, "udon", "締めのうどん")
+ds_map_add(global.bonus_combinations, "curry", "カレー鍋")
+ds_map_add(global.bonus_combinations, "poke,chicken,rabbit", "肉鍋")
+ds_map_add(global.bonus_combinations, "daikon,hakusai,mushroom,negi", "野菜鍋")
+ds_map_add(global.bonus_combinations, "usagi,hakusai,carrot,tofu", "ウサギ鍋")
+ds_map_add(global.bonus_combinations, "hakusai,mushroom,tofu,kimuchi", "キムチ鍋")
+ds_map_add(global.bonus_combinations, "hakusai,mushroom,tofu,poke", "ミルフィーユ鍋")
+ds_map_add(global.bonus_combinations, "chicken,tsumire,tofu", "鶏団子鍋")
+ds_map_add(global.bonus_combinations, "fish,negi,hakusai,tofu", "魚介鍋")
+ds_map_add(global.bonus_combinations, "egg,konnnyaku,daikon", "おでん")
+ds_map_add(global.bonus_combinations, "rice,cheeze,onion", "チーズリゾット")
+ds_map_add(global.bonus_combinations, "poke,onion,tomato,mushroom", "ハヤシライス")
+ds_map_add(global.bonus_combinations, "onion,carrot,potato,poke,curry", "カレーライス")
+ds_map_add(global.bonus_combinations, "negi,chicken,egg,udon", "月見うどん")
+ds_map_add(global.bonus_combinations, "negi,shirataki,tofu,mushroom", "肉無しすき焼き")
 
 // 水分量
 global.player_water = 100
@@ -48,3 +48,5 @@ global.player_calorie = 50
 global.timer = 60 * 180
 // 現在のフレーム数
 global.current_frame = 0
+
+global.coocked_queue = ds_queue_create()

@@ -63,6 +63,7 @@
     {"id":{"name":"spr_teki_tamanegiZ_strip02","path":"sprites/spr_teki_tamanegiZ_strip02/spr_teki_tamanegiZ_strip02.yy",},},
     {"id":{"name":"snd_gokugoku","path":"sounds/snd_gokugoku/snd_gokugoku.yy",},},
     {"id":{"name":"spr_teki_ageless_strip02","path":"sprites/spr_teki_ageless_strip02/spr_teki_ageless_strip02.yy",},},
+    {"id":{"name":"spr_UI_keijiban_dot","path":"sprites/spr_UI_keijiban_dot/spr_UI_keijiban_dot.yy",},},
     {"id":{"name":"obj_UI_par_button","path":"objects/obj_UI_par_button/obj_UI_par_button.yy",},},
     {"id":{"name":"obj_rice_spoiled","path":"objects/obj_rice_spoiled/obj_rice_spoiled.yy",},},
     {"id":{"name":"obj_egg","path":"objects/obj_egg/obj_egg.yy",},},
@@ -165,6 +166,7 @@
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"spr_teki_touhuN_strip02","path":"sprites/spr_teki_touhuN_strip02/spr_teki_touhuN_strip02.yy",},},
     {"id":{"name":"spr_teki_curryZ_strip02","path":"sprites/spr_teki_curryZ_strip02/spr_teki_curryZ_strip02.yy",},},
+    {"id":{"name":"spr_UI_keijiban","path":"sprites/spr_UI_keijiban/spr_UI_keijiban.yy",},},
     {"id":{"name":"spr_teki_chizuN_strip02","path":"sprites/spr_teki_chizuN_strip02/spr_teki_chizuN_strip02.yy",},},
     {"id":{"name":"obj_UI_button_right","path":"objects/obj_UI_button_right/obj_UI_button_right.yy",},},
     {"id":{"name":"spr_UI_water_surface","path":"sprites/spr_UI_water_surface/spr_UI_water_surface.yy",},},
@@ -233,8 +235,8 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
   ],
   "TextureGroups": [

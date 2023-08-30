@@ -141,6 +141,28 @@ for(var _i=0; _i < ds_queue_size(global.ingredients_queue); _i++){
 	instance_destroy(_inst)
 }
 
+// 掲示板のGUI表示
+draw_sprite_ext(spr_UI_keijiban, 0, 0, 0, 0.5,0.5,0,c_white,1)
+
+// 掲示板に文字を表示
+if surface_exists(surf){
+	surface_set_target(surf)
+	draw_clear_alpha(c_black, 0)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_text_color(text_x, sprite_get_height(spr_UI_keijiban)*0.5/2, global.nabe_message, c_yellow, c_yellow, c_yellow, c_yellow, 1)
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+	surface_reset_target()
+	draw_surface(surf, board_x, board_y)
+}else{
+	surf = surface_create(board_width,board_height)
+}
+
+
+// 掲示板の上にドットを表示
+draw_sprite_ext(spr_UI_keijiban_dot, 0, 9, 9, 0.5, 0.5, 0, c_white, 1)
+
 // プレイヤー死亡時の処理
 //if !instance_exists(obj_player) && restart_now == false{
 //	layer_sequence_create("Dead", camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), seq_dead)

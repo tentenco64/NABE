@@ -16,7 +16,9 @@ if global.player_water > 0{
 
 // 水分量が低い場合のSE
 if global.player_water < 20{
-	audio_play_sound(snd_heartbeat, 0, true)
+	if !audio_is_playing(snd_heartbeat){
+		audio_play_sound(snd_heartbeat, 0, false)
+	}
 }else{
 	audio_stop_sound(snd_heartbeat)
 }
