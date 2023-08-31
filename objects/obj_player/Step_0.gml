@@ -1,5 +1,8 @@
 /// @description 
 
+// スプライトの描画速度の調整
+image_speed = max(global.player_calorie / 100, 0.2)
+
 // 移動
 var _vx = 0
 var _vy = 0
@@ -29,8 +32,8 @@ if keyboard_check(vk_down){
 	move_down = 0
 }
 
-_vx = (move_right - move_left) * move_speed * global.player_calorie / 100
-_vy = (move_down - move_up) * move_speed* global.player_calorie / 100
+_vx = (move_right - move_left) * move_speed * max(global.player_calorie, 10) / 100
+_vy = (move_down - move_up) * move_speed* max(global.player_calorie, 10) / 100
 
 
 if _vx > 0{
@@ -81,20 +84,24 @@ if operatable{
 //bullet_ct -= 1
 
 // 再加熱コマンド
-if keyboard_check_pressed(ord("C")){
+// ダイソン中は使えない
+if !(dyson_ef > 0){
+	if keyboard_check_pressed(ord("C")){
 	audio_play_sound(snd_fire, 0, true)
 	audio_play_sound(snd_lighter, 0, true)
 	instance_create_depth(x, y, obj_player.depth+1, obj_fire)
+	}
+	if keyboard_check(ord("C")) && instance_exists(obj_fire){
+		global.player_calorie += 0.5
+		sprite_index = spr_player_heatup
+	}
+	if keyboard_check_released(ord("C")){
+		audio_stop_sound(snd_fire)
+		audio_stop_sound(snd_lighter)
+		instance_destroy(obj_fire)
+	}
 }
-if keyboard_check(ord("C")){
-	global.player_calorie += 0.5
-	sprite_index = spr_player_heatup
-}
-if keyboard_check_released(ord("C")){
-	audio_stop_sound(snd_fire)
-	audio_stop_sound(snd_lighter)
-	instance_destroy(obj_fire)
-}
+
 
 var _dyson_start_flame = 0
 
@@ -104,7 +111,7 @@ if keyboard_check_pressed(ord("X")){
 		audio_play_sound(snd_dyson, 0, false)
 		instance_create_depth(x, y, obj_player.depth+2, obj_wind)
 		// 吸い込みのクールタイム
-		global.dyson_ct = 600
+		global.dyson_ct = 900
 		dyson_ef = 150
 	}
 }
@@ -142,7 +149,7 @@ _cam_y = clamp(_cam_y, 0, room_height - _cam_h);
 camera_set_view_pos(view_camera[0], _cam_x, _cam_y);
 
 // キャラクター操作の可否について条件分岐
-if keyboard_check(ord("C")) || dyson_ef > 0 || drinking || starting{
+if instance_exists(obj_fire) || dyson_ef > 0 || drinking || starting{
 	operatable = false
 }else{
 	operatable = true

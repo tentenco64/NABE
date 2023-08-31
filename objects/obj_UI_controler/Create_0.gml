@@ -59,5 +59,3 @@ pre_text = global.nabe_message
 text_x = board_width;
 surf = surface_create(board_width-10, board_height);
 
-// ダイソンのCT
-global.dyson_ct = 0

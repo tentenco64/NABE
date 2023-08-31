@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wind",
+  "name": "obj_UI_staff",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Platyer",
-    "path": "folders/オブジェクト/Platyer.yy",
+    "name": "UI",
+    "path": "folders/オブジェクト/UI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_player_wind",
-    "path": "sprites/spr_player_wind/spr_player_wind.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -15,7 +15,7 @@ if keyboard_check_pressed(vk_space){
 draw_set_font(fnt_score)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
-draw_text(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, "夜明けまで: "+ string(round(global.timer/60)))
+draw_text_color(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, "夜明けまで: "+ string(round(global.timer/60)), c_yellow, c_yellow, c_yellow, c_yellow, 1)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 

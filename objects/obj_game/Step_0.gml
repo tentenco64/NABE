@@ -7,9 +7,9 @@ global.current_frame += 1
 if global.player_water > 100{
 	global.player_water = 100
 }
-// 水分量の自然減少。何もしなければ1分で空になる
+// 水分量の自然減少
 if global.player_water > 0{
-	global.player_water -= 100/60/60 * (global.player_calorie / 100)
+	global.player_water -= 100/60/60 * (global.player_calorie / 100) * 2
 }else{
 	global.player_water = 0
 }

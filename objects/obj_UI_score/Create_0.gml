@@ -1,9 +1,10 @@
 /// @description 
 
 // デバッグ用
-//global.player_score = 0
-//global.high_score = 0
-//global.get_enemy = 0
+global.player_score = 0
+global.high_score = 0
+global.get_enemy = 0
+global.nabe_num = 0
 
 // ハイスコアの記録
 if (global.player_score > global.high_score) {

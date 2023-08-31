@@ -16,7 +16,7 @@ alarm[0] = spawn_rate
 // スポーンする敵リスト
 enemy_obj_list = [obj_hakusai, obj_chicken, obj_usagi, obj_donteat, obj_egg, obj_curry, obj_udon,
 obj_daikon,obj_konnnyaku,obj_tofu,obj_rice,obj_fish,obj_mushroom,obj_tsumire,obj_gyouza,obj_onion,
-obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke, obj_faucet, obj_carrot, obj_kimuchi]
+obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke, obj_carrot, obj_kimuchi]
 
 // ステージBGM
 audio_play_sound(snd_stage, 0, true)
@@ -45,9 +45,9 @@ ds_map_add(global.bonus_combinations, "negi,chicken,egg,udon", "月見うどん"
 ds_map_add(global.bonus_combinations, "negi,shirataki,tofu,mushroom", "肉無しすき焼き")
 
 // 水分量
-global.player_water = 100
+global.player_water = 70
 // 熱量
-global.player_calorie = 50
+global.player_calorie = 100
 // タイマー
 global.timer = 60 * 120
 // 現在のフレーム数
@@ -60,3 +60,6 @@ global.get_enemy = 0
 
 // 作った鍋の数
 global.nabe_num = 0
+
+// ダイソンのCT
+global.dyson_ct = 0
