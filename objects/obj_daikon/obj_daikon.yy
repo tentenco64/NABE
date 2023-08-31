@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"konnnyaku\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"name","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"\"daikon\"",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"initial_move_speed","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"3",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"n_value","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"propertyId":{"name":"water","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"value":"3",},

@@ -1,14 +1,16 @@
 /// @description スポーナー
 
 if instance_number(obj_par_enemy) < 20 {
-	var _enemy_index = irandom(array_length(enemy_obj_list) - 1)
-	var _spawn_obj = enemy_obj_list[_enemy_index]
-	// 同じ種類がフィールドに居る場合再生成
-	// まな板の上はチェックされていないらしい
-	while instance_exists(_spawn_obj){
-		_enemy_index = irandom(array_length(enemy_obj_list) - 1)
-		_spawn_obj = enemy_obj_list[_enemy_index]
+	show_debug_message(ds_list_size(enemy_obj_list))
+	if ds_list_size(enemy_obj_list) == 0{
+		ds_list_copy(enemy_obj_list, enemy_obj_list_init) 
 	}
+	var _enemy_index = irandom(ds_list_size(enemy_obj_list) - 1)
+	var _spawn_obj = ds_list_find_value(enemy_obj_list, _enemy_index)
+	// 一度出現した敵はスポーンリストから削除される
+	var _remove_index = ds_list_find_index(enemy_obj_list, _spawn_obj)
+	ds_list_delete(enemy_obj_list, _remove_index)
+	
     var _spawn_point_x = random(room_width)
     var _spawn_point_y = random(room_height)
 
