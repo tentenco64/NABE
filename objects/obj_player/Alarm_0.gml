@@ -102,5 +102,6 @@ for (var _i = 0; _i < array_length(_keys); _i++){
 }
 
 global.player_score += _score
+global.nabe_num += 1
 
 ingredient_array = array_create(0, "")

@@ -8,4 +8,14 @@ var _sounds = [snd_attack01, snd_attack02]
 var _index = irandom(array_length(_sounds)-1)
 audio_play_sound(_sounds[_index], 0, false)
 
-alarm[0] = 30
+if obj_player.dir = 0{
+	image_angle = 270
+}else if obj_player.dir = 1{
+	image_angle = 0
+}else if obj_player.dir = 2{
+	image_angle = 90
+}else if obj_player.dir = 3{
+	image_angle = 180
+}
+
+alarm[0] = 20

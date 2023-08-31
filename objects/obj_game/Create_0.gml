@@ -1,6 +1,9 @@
 /// @description ゲームマネージャ
 audio_stop_all()
 
+// ゲーム開始時にシード値をランダマイズ
+randomize()
+
 layer_sequence_create("Transition", 0, 0, seq_transition_end)
 
 // スコア関係
@@ -46,7 +49,7 @@ global.player_water = 100
 // 熱量
 global.player_calorie = 50
 // タイマー
-global.timer = 60 * 180
+global.timer = 60 * 120
 // 現在のフレーム数
 global.current_frame = 0
 
@@ -54,3 +57,6 @@ global.coocked_queue = ds_queue_create()
 
 // 捕まえた敵の数
 global.get_enemy = 0
+
+// 作った鍋の数
+global.nabe_num = 0

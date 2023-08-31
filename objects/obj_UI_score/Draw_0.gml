@@ -9,7 +9,8 @@ draw_set_valign(fa_middle)
 draw_text_color(x, y, 
 "得点: " + string(global.player_score) + 
 "\n最高得点: " + string(global.high_score) +
-"\n捕まえた食材数: " + string(global.get_enemy)
+"\n捕まえた食材数: " + string(global.get_enemy) +
+"\n作った鍋の数" + string(global.nabe_num)
 , c_black, c_black, c_black, c_black, 1)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)

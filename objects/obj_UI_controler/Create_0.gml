@@ -9,7 +9,7 @@ y_offset_score = 50
 x_offset_water = 50
 y_offset_water = 250
 
-x_offset_timer = 521.3362 + cam_w/2
+x_offset_timer = -521.3362 + cam_w/2
 y_offset_timer = 30
 
 spr_queue = ds_queue_create()
@@ -58,3 +58,6 @@ global.nabe_message = "どんな鍋が出来上がるのか楽しみ!";
 pre_text = global.nabe_message
 text_x = board_width;
 surf = surface_create(board_width-10, board_height);
+
+// ダイソンのCT
+global.dyson_ct = 0

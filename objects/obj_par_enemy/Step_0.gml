@@ -1,6 +1,11 @@
 /// @description 
 var _move_speed
 
+// 徐々にアルファ値を上げていく
+if image_alpha < 1{
+	image_alpha += 0.02
+}
+
 // 徐々に腐敗していく
 if fleshness > 0{
 	fleshness -= 100/60/60
@@ -39,7 +44,7 @@ if instance_exists(obj_player){
 	var _distance_to_player = point_distance(x, y, obj_player.x, obj_player.y)
 
 	// 吸い込み中は逃げない
-	if !keyboard_check(ord("R")){
+	if !(obj_player.dyson_ef > 0){
 		// プレイヤーが視界内に来た
 		if _distance_to_player < view_range{
 			var _angle_to_player = point_direction(x, y, obj_player.x, obj_player.y)

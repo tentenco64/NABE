@@ -15,7 +15,7 @@ if keyboard_check_pressed(vk_space){
 draw_set_font(fnt_score)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
-draw_text(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, string(global.timer))
+draw_text(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, "夜明けまで: "+ string(round(global.timer/60)))
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
@@ -166,6 +166,24 @@ if surface_exists(surf){
 
 // 掲示板の上にドットを表示
 draw_sprite_ext(spr_UI_keijiban_dot, 0, 9, 9, 0.5, 0.5, 0, c_white, 1)
+
+// 掲示板の右に吸い込みのクールタイムを表示
+var _spr
+if global.dyson_ct > 0{
+	_spr = spr_player_wind_gray
+}else{
+	_spr = spr_player_wind
+}
+draw_sprite_ext(_spr, 0, -162.5 + camera_get_view_width(view_camera[0])/2, -307.5 + camera_get_view_height(view_camera[0])/2, 0.15, 0.15, 0, c_white, 1)
+if global.dyson_ct > 0{
+	var _ct = string_format(global.dyson_ct/60, 0, 1)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_text(-162.5 + camera_get_view_width(view_camera[0])/2, -307.5 + camera_get_view_height(view_camera[0])/2, string(_ct))
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+}
+
 
 // プレイヤー死亡時の処理
 //if !instance_exists(obj_player) && restart_now == false{

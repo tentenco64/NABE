@@ -3,5 +3,5 @@
 event_inherited();
 
 if !can_eat{
-	instance_change(obj_potato_spoiled, true)
+	instance_change(obj_potato_spoiled, false)
 }

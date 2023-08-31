@@ -16,6 +16,9 @@ dir = 0
 // 射撃のクールタイム
 bullet_ct = 60
 
+// 吸い込みの効果時間
+dyson_ef = 0
+
 ingredient_array = array_create(0, "")
 
 // 保持できる食材の数
@@ -29,3 +32,10 @@ operatable = true
 
 // 加熱のクールタイム
 calorie_ct = 180
+
+// 給水中
+drinking = false
+
+// ゲーム開始
+starting = true
+alarm[1] = 90

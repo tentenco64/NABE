@@ -4,6 +4,9 @@ view_range = 1000
 slow = false
 fleshness_ratio = 0
 
+// 最初は透明でスポーンする
+image_alpha = 0
+
 // 敵キャラの大きさはランダム
 scale = random_range(1,2)
 
