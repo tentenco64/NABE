@@ -1,7 +1,6 @@
 /// @description スポーナー
 
 if instance_number(obj_par_enemy) < 20 {
-	show_debug_message(ds_list_size(enemy_obj_list))
 	if ds_list_size(enemy_obj_list) == 0{
 		ds_list_copy(enemy_obj_list, enemy_obj_list_init) 
 	}

@@ -1,7 +1,7 @@
 /// @description 
 
 // 透明な敵には触れない || 開始時には触れない
-if other.image_alpha > 0.2 || starting == false{
+if other.image_alpha > 0.5 || starting == false{
 	var _enemy = 0
 
 	// SE再生

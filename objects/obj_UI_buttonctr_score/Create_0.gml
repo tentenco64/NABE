@@ -11,3 +11,5 @@ total_buttons = 2
 button_labels = ["再挑戦", "さらば"]
 selected = false
 flame = 0
+
+global.canmove = false

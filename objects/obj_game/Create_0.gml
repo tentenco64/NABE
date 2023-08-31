@@ -9,13 +9,14 @@ layer_sequence_create("Transition", 0, 0, seq_transition_end)
 
 // スコア関係
 global.player_score = 0
+global.nabe_score = 0
 
 // スポーンレート
 spawn_rate = 60
 alarm[0] = spawn_rate
 
 // スポーンする敵配列
-enemy_obj_array = [obj_hakusai, obj_chicken, obj_usagi, obj_donteat, obj_egg, obj_curry, obj_udon,
+enemy_obj_array = [obj_hakusai, obj_hakusai, obj_chicken, obj_usagi, obj_donteat, obj_egg, obj_curry, obj_udon,
 obj_daikon,obj_konnnyaku,obj_tofu,obj_rice,obj_fish,obj_mushroom,obj_tsumire,obj_gyouza,obj_onion,
 obj_tomato,obj_cheese,obj_shirataki,obj_negi,obj_meatball,obj_potato,obj_poke, obj_carrot, obj_kimuchi]
 // リスト化

@@ -101,7 +101,8 @@ for (var _i = 0; _i < array_length(_keys); _i++){
 	_score *= _multiplier;
 }
 
-global.player_score += _score
+global.player_score += round(_score)
+global.nabe_score = round(_score)
 global.nabe_num += 1
 
 ingredient_array = array_create(0, "")

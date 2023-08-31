@@ -9,7 +9,7 @@ y_offset_score = 50
 x_offset_water = 50
 y_offset_water = 250
 
-x_offset_timer = -521.3362 + cam_w/2
+x_offset_timer = cam_w / 2
 y_offset_timer = 30
 
 spr_queue = ds_queue_create()
@@ -59,3 +59,8 @@ pre_text = global.nabe_message
 text_x = board_width;
 surf = surface_create(board_width-10, board_height);
 
+
+// 鍋のスコア表示用
+pre_nabe_score = 0
+nabe_x = 152.6981 + cam_w/2 + 116
+nabe_y = 225.3948+cam_h/2 + 95
