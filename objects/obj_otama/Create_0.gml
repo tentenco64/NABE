@@ -1,8 +1,12 @@
 /// @description 近接攻撃で召喚
 
 // サイズ調整
-image_xscale /= IMAGE_MAGNIFICATION
+image_xscale /= IMAGE_MAGNIFICATION 
 image_yscale /= IMAGE_MAGNIFICATION
+
+// ちょっと大きくする
+image_xscale *= 1.5
+image_yscale *= 1.5
 
 var _sounds = [snd_attack01, snd_attack02]
 var _index = irandom(array_length(_sounds)-1)

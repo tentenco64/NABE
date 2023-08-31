@@ -20,11 +20,8 @@ fleshness_ratio = fleshness / init_fleshness
 var _blue = 255 * (1 - fleshness_ratio);
 
 // スプライトの色を設定
-if can_eat{
-	image_blend = make_color_rgb(255 - _blue, 255 , 255- _blue);
-}else{
-	image_blend = make_color_rgb(255, 255, 255)
-}
+image_blend = make_color_rgb(255 - _blue, 255 , 255- _blue);
+
 if fleshness = 0{
 	can_eat = false
 }

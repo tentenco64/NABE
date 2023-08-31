@@ -91,16 +91,17 @@ if !(dyson_ef > 0){
 	audio_play_sound(snd_lighter, 0, true)
 	instance_create_depth(x, y, obj_player.depth+1, obj_fire)
 	}
-	if keyboard_check(ord("C")) && instance_exists(obj_fire){
-		global.player_calorie += 0.5
-		sprite_index = spr_player_heatup
-	}
-	if keyboard_check_released(ord("C")){
-		audio_stop_sound(snd_fire)
-		audio_stop_sound(snd_lighter)
-		instance_destroy(obj_fire)
-	}
 }
+if keyboard_check(ord("C")) && instance_exists(obj_fire){
+	global.player_calorie += 0.5
+	sprite_index = spr_player_heatup
+}
+if keyboard_check_released(ord("C")){
+	audio_stop_sound(snd_fire)
+	audio_stop_sound(snd_lighter)
+	instance_destroy(obj_fire)
+}
+
 
 
 var _dyson_start_flame = 0
