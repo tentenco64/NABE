@@ -4,6 +4,33 @@ view_range = 1000
 slow = false
 fleshness_ratio = 0
 
+// 腐敗時の変身先
+spoiled_enemy = [obj_carrot_spoiled,
+				obj_cheese_spoiled,
+				obj_chicken_spoiled,
+				obj_curry_spoiled,
+				obj_daikon_spoiled,
+				obj_donteat_spoiled,
+				obj_egg_spoiled,
+				obj_fish_spoiled,
+				obj_gyouza_spoiled,
+				obj_hakusai_spoiled,
+				obj_kimuchi_spoiled,
+				obj_konnnyaku_spoiled,
+				obj_meatball_spoiled,
+				obj_mushroom_spoiled,
+				obj_negi_spoiled,
+				obj_onion_spoiled,
+				obj_poke_spoiled,
+				obj_potato_spoiled,
+				obj_rice_spoiled,
+				obj_shirataki_spoiled,
+				obj_tofu_spoiled,
+				obj_tomato_spoiled,
+				obj_tsumire_spoiled,
+				obj_udon_spoiled,
+				obj_usagi_spoiled]
+
 // 最初は透明でスポーンする
 image_alpha = 0
 

@@ -80,7 +80,7 @@
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":{"resourceType":"GMAnimCurve","resourceVersion":"1.2","name":"回転","channels":[
                         {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"角度","colour":4290799884,"points":[
                             {"th0":-0.24999958,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":0.0,"y":0.0,},
-                            {"th0":-0.99999833,"th1":0.24999958,"tv0":0.0,"tv1":0.0,"x":0.99999833,"y":-57.13563,},
+                            {"th0":-0.99999833,"th1":0.24999958,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-57.13563,},
                           ],"visible":true,},
                       ],"function":2,},"RealValue":0.0,},},"Disabled":false,"id":"96d40dbb-95e5-433d-b5d1-4f8e8a7b499d","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4287580402,"tracks":[],"traits":0,},
@@ -118,7 +118,7 @@
                           ],"visible":true,},
                         {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"y","colour":4281083598,"points":[
                             {"th0":0.0,"th1":0.19999968,"tv0":0.0,"tv1":0.0,"x":0.0,"y":429.15,},
-                            {"th0":-0.19999968,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":0.99999833,"y":429.1507,},
+                            {"th0":-0.19999968,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":429.1507,},
                           ],"visible":true,},
                       ],"function":2,},"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":{"resourceType":"GMAnimCurve","resourceVersion":"1.2","name":"位置","channels":[
                         {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"x","colour":4290799884,"points":[
@@ -127,7 +127,7 @@
                           ],"visible":true,},
                         {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"y","colour":4281083598,"points":[
                             {"th0":0.0,"th1":0.19999968,"tv0":0.0,"tv1":0.0,"x":0.0,"y":429.15,},
-                            {"th0":-0.19999968,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":0.99999833,"y":429.1507,},
+                            {"th0":-0.19999968,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":429.1507,},
                           ],"visible":true,},
                       ],"function":2,},"RealValue":0.0,},},"Disabled":false,"id":"457685c6-281c-4a41-af70-cffeb0ad1cee","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294068324,"tracks":[],"traits":0,},

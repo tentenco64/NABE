@@ -25,6 +25,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"スプライト","folderPath":"folders/スプライト.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ingredient_zombie","folderPath":"folders/スプライト/Ingredient_zombie.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ingredient","folderPath":"folders/スプライト/Ingredient.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Manual","folderPath":"folders/スプライト/Manual.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/スプライト/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/スプライト/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"タイムライン","folderPath":"folders/タイムライン.yy",},
@@ -34,13 +35,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"メモ","folderPath":"folders/メモ.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ルーム","folderPath":"folders/ルーム.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"拡張機能","folderPath":"folders/拡張機能.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Manual","folderPath":"folders/スプライト/Manual.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_teki_tomatoZ_strip02","path":"sprites/spr_teki_tomatoZ_strip02/spr_teki_tomatoZ_strip02.yy",},},
@@ -257,6 +257,7 @@
     {"roomId":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"roomId":{"name":"rm_howto","path":"rooms/rm_howto/rm_howto.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

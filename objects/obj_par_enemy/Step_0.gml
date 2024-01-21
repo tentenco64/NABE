@@ -17,10 +17,10 @@ if fleshness > 0{
 fleshness_ratio = fleshness / init_fleshness
 
 // 青色の成分を計算
-var _blue = 255 * (1 - fleshness_ratio);
+var _blue = 255 * (1 - fleshness_ratio)
 
 // スプライトの色を設定
-image_blend = make_color_rgb(255 - _blue, 255 , 255- _blue);
+image_blend = make_color_rgb(255 - _blue, 255 , 255- _blue)
 
 if fleshness = 0{
 	can_eat = false
@@ -57,4 +57,9 @@ if instance_exists(obj_player){
 			}
 		}
 	}
+}
+
+// 腐敗したらゾンビ化
+if !can_eat{
+	instance_change(spoiled_enemy[enemy_id], false)
 }

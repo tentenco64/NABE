@@ -13,6 +13,7 @@
     {"name":"スプライト","order":1,"path":"folders/スプライト.yy",},
     {"name":"Ingredient_zombie","order":13,"path":"folders/スプライト/Ingredient_zombie.yy",},
     {"name":"Ingredient","order":12,"path":"folders/スプライト/Ingredient.yy",},
+    {"name":"Manual","order":21,"path":"folders/スプライト/Manual.yy",},
     {"name":"Player","order":15,"path":"folders/スプライト/Player.yy",},
     {"name":"UI","order":14,"path":"folders/スプライト/UI.yy",},
     {"name":"タイムライン","order":8,"path":"folders/タイムライン.yy",},
@@ -22,7 +23,6 @@
     {"name":"メモ","order":13,"path":"folders/メモ.yy",},
     {"name":"ルーム","order":10,"path":"folders/ルーム.yy",},
     {"name":"拡張機能","order":14,"path":"folders/拡張機能.yy",},
-    {"name":"Manual","order":21,"path":"folders/スプライト/Manual.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_teki_tomatoZ_strip02","order":22,"path":"sprites/spr_teki_tomatoZ_strip02/spr_teki_tomatoZ_strip02.yy",},
