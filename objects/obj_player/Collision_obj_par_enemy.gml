@@ -27,6 +27,4 @@ if other.image_alpha > 0.5 || starting == false{
 	// 捕まえた敵の数
 	global.get_enemy += 1
 
-	// インスタンスはまだ削除しない
-	// instance_destroy(other)	
 }

@@ -1,5 +1,5 @@
 /// @description スコア化
-// ボーナスマップのーの取得
+// ボーナスマップの取得
 var _keys = ds_map_keys_to_array(global.bonus_combinations)
 
 

@@ -3,19 +3,11 @@ if keyboard_check_pressed(vk_space){
 	alarm[0] = 120
 }
 
-// スコアを右上に描画
-// draw_set_font(fnt_score)
-// draw_text(camera_get_view_width(view_camera[0]) - x_offset_score, y_offset_score, string(global.player_score))
-
-// 水分を右上に描画
-//draw_set_font(fnt_score)
-//draw_text(camera_get_view_width(view_camera[0]) - x_offset_water, y_offset_water, string(global.player_water))
-
 // 制限時間を画面中央上に描画
 draw_set_font(fnt_score)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
-draw_text_color(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, "夜明けまで: "+ string(round(global.timer/60)), c_yellow, c_yellow, c_yellow, c_yellow, 1)
+draw_text_color(camera_get_view_width(view_camera[0]) - x_offset_timer, y_offset_timer, "夜明けまで: "+ string(round(global.timer/60)), c_black, c_black, c_black, c_black, 1)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
@@ -182,22 +174,16 @@ if global.dyson_ct > 0{
 	var _ct = string_format(global.dyson_ct/60, 0, 1)
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
-	draw_text(-162.5 + camera_get_view_width(view_camera[0])/2, -307.5 + camera_get_view_height(view_camera[0])/2, string(_ct))
+	draw_text_color(-162.5 + camera_get_view_width(view_camera[0])/2, -307.5 + camera_get_view_height(view_camera[0])/2, string(_ct), c_blue, c_blue, c_blue, c_blue, 1)
 	draw_set_halign(fa_left)
 	draw_set_valign(fa_top)
 }
 
 // 完成した鍋の点数を表示
-//draw_sprite_ext(spr_UI_donabe, 0, 152.6981 + cam_w/2, 225.3948+cam_h/2, 0.9033908, 0.9033908, 0, c_white, 1)
 draw_set_font(fnt_score)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 draw_text(nabe_x,nabe_y, string(global.nabe_score))
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
-// プレイヤー死亡時の処理
 
-//if !instance_exists(obj_player) && restart_now == false{
-//	layer_sequence_create("Dead", camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), seq_dead)
-//	restart_now = true
-//}
